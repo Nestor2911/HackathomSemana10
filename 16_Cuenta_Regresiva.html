@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuenta Regresiva</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./fonts/css/all.css">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+    <script>
+        function cuentaRegresiva() {
+            let countdown = []
+            let number = prompt("Ingresar el número ");
+            for (let n = 0; n <= number; n++) {
+
+                countdown.push(n)
+            }
+            console.log(countdown.reverse(countdown));
+            alert(countdown);
+        }
+        cuentaRegresiva()
+
+    </script>
+</body>
+<article><a href=index.html><i class="fas fa-home"></i> MENÚ</a></article>
+
+</html>

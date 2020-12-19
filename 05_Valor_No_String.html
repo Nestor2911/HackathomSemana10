@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filtrar Valor No string</title>
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./fonts/css/all.css">
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+  <script>
+    function excluirString(...rest) {
+      let datos = [...rest]
+      let numeros = datos.filter(soloNumber)
+      function soloNumber(value) {
+        if (typeof value !== "number") {
+          return false
+        }
+        return value
+      }
+      return numeros
+      
+    }
+    console.log(excluirString(1, 2, "Nestor",3, 4, 5, 6))
+    
+  </script>
+</body>
+<article><a href=index.html><i class="fas fa-home"></i> MENÚ</a></article>
+
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>suma de Presupuestos</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./fonts/css/all.css">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+    <script>
+        let arr = [{ name: "John", age: 21, budget: 23000 },
+        { name: "Steve", age: 32, budget: 40000 },
+        { name: "Martin", age: 16, budget: 2700 }
+        ]
+
+        function sumaPresupuestos() {
+            let total = 0
+            for (let n = 0; n < arr.length; n++) {
+                total += arr[n].budget;
+
+            }
+
+            console.log(total)
+        }
+        sumaPresupuestos()
+    </script>
+</body>
+<article><a href=index.html><i class="fas fa-home"></i> MENÚ</a></article>
+
+</html>

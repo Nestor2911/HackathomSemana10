@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diferencia entre Números</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./fonts/css/all.css">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+    <script>
+        function diferenciaEntreNumeros() {
+            let diffMaxMin = [10, 4, 1, 4, -10, -50, 32, 21]
+            a = Math.min(...diffMaxMin)
+            b = Math.max(...diffMaxMin)
+
+            let total = b - a
+            console.log(a);
+            console.log(b);
+            console.log(total);
+            alert('El número mas pequeño es ' + a + ', El número mas grande es ' + b + ' La diferencia es ' + total);
+        }
+        diferenciaEntreNumeros()
+
+    </script>
+</body>
+
+<article><a href=index.html><i class="fas fa-home"></i> MENÚ</a></article>
+
+</html>
