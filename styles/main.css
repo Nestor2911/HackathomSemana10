@@ -1,0 +1,32 @@
+.menu{
+    width: 400px;
+    margin: auto;
+    border: 5px solid #bdb0b0;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(148, 133, 216);
+    
+  }
+  h1{
+      font-size: 23px;
+        font: Poppins;
+        color: #43927c;
+        font-weight: bold;
+    }
+
+  li{
+    padding: 10px;
+  }
+
+  article {
+    width: 320px;
+    margin: auto;
+    border: 5px solid #e4e4e4;
+    text-align: center;
+    border-radius: 15px;
+    background-color: orange;
+    padding: 15px;
+    
+  }
